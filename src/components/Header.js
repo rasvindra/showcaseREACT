@@ -8,13 +8,9 @@ import {NavBar} from "./Navigation"
 function Header() {
     return (
         //how do I insert the NavBar?
-      
         <Container fluid className="Nav" id="Navigation">
-
+            <NavBar/>
         </Container>
-         <Container fluid className="AboutMe" id="bio">
-
-         </Container>
             
     )
 }
