@@ -1,10 +1,20 @@
 import './App.css';
-import Main from './components/Main';
+import Header from "./components/Header";
+import Projects from "./components/Projects";
+import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
     <div className="portfolio-app">
-      <Main />
+      <Header />
+      <Projects/>
+      <ContactForm/>
+      <Footer/>
+
+
+
     </div>
   );
 }

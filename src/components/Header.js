@@ -8,8 +8,10 @@ function Header() {
     return (
         //how do I insert the NavBar?
         <Container fluid className="Title" id="bio">
-            
+
         </Container>
             
     )
 }
+
+export default Header;
