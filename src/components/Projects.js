@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Row, Col } from "react-bootstrap";
-import ProjectCards from "./projectCard";
-import PinkClouds from "../../public/Assets/pink-clouds.jpg"
+import ProjectCards from "./ProjectCard";
+import PinkClouds from "../Assets/pink-clouds.jpg"
 // Need to create paths to images for each project
 
 
