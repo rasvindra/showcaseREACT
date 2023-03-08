@@ -7,7 +7,7 @@ import PinkClouds from "../../public/Assets/pink-clouds.jpg"
 
 function Projects() {
     return(
-        <Container fluid className="project-area">
+        <Container fluid className="project-area" id="Portfiolio">
             <Container>
                 <h1> Here is a list of some of my Projects and Collaberations</h1>
                 <Row style={{justifyContent:"center"}}>

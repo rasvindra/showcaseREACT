@@ -10,7 +10,7 @@ function NavigationBar() {
         <>
         <Navbar.Brand href="#Navigation">NavBar</Navbar.Brand>
          <Nav className = "NavigationBar" id="Navigation">
-            <Nav.link href="#bio">About Me</Nav.link>
+            <Nav.link href="#Bio">About Me</Nav.link>
             <Nav.link href="#Portfolio">My Projects</Nav.link>
             <Nav.link href="#Resume">My Work History</Nav.link>
             <Nav.link href="#Contact">Ways to Reach Me</Nav.link>
