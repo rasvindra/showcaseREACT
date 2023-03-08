@@ -1,15 +1,12 @@
-import React, {useState} from "react";
+import React from "react";
 import {Container, Row, Col } from "react-bootstrap";
-import {NavBar} from "./Navigation"
-
-// import logo from "../../public/logo192.png"
+import NavigationBar from "./Navigation"
 
 
 function Header() {
     return (
-        //how do I insert the NavBar?
         <Container fluid className="Nav" id="Navigation">
-            <NavBar/>
+            <NavigationBar/>
         </Container>
             
     )

@@ -2,17 +2,17 @@ import './App.css';
 import Header from "./components/Header";
 import AboutME from "./components/Header";
 import Projects from "./components/Projects";
-import ContactForm from "./components/ContactMEForm";
+import ContactMEForm from "./components/ContactMEForm";
 import Footer from "./components/Footer";
 
 
 function App() {
   return (
     <div className="portfolio-app">
-      <Header />
+      <Header/>
       <AboutME/>
       <Projects/>
-      <ContactForm/>
+      <ContactMEForm/>
       <Footer/>
 
     </div>

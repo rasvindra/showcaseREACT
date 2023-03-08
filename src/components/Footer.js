@@ -1,11 +1,17 @@
-import React, {useState} from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
-// import logo from "../../public/logo192.png"
+import NavBar from "./Navigation"
 
 
 function Footer() {
 
-    
+        return (
+
+            <Container fluid className="Nav" id="Navigation">
+                <NavBar/>
+            </Container>
+                
+        )    
 }
 
 export default Footer;

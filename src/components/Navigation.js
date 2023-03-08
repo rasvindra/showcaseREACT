@@ -1,12 +1,11 @@
-import React, {useState} from "react";
-import Button from "react-bootstrap/Button";
+import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
+
 // import logo from "../../public/logo192.png"
 
 
-function NavBar() {
+function NavigationBar() {
     return (
         <>
         <Navbar.Brand href="#Navigation">NavBar</Navbar.Brand>
@@ -23,4 +22,4 @@ function NavBar() {
 
 }
 
-export default NavBar;
+export default NavigationBar;
