@@ -12,7 +12,6 @@ function NavigationBar() {
          <Nav className = "NavigationBar" id="Navigation">
             <a href="#Bio"> About Me </a>
             <a href="#Portfolio"> My Projects </a>
-            <a href="#Resume"> My Work History </a>
             <a href="#Contact"> Ways to Reach Me </a>
         
         <Navbar fixed="top" />

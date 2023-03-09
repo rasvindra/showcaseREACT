@@ -1,15 +1,22 @@
 import React from "react";
 import {Container, Row, Col } from "react-bootstrap";
 import NavigationBar from "./Navigation"
+import PurpleClouds from "../Assets/purple-clouds.jpg"
 
 
 function Header() {
+    const headStyle={
+        height:"60px",
+        backgroundImage:PurpleClouds,
+        backgroundSize:"cover",
+        backgroundRepeat:"no-repeat",
+    };
     return (
-        <Container fluid className="Nav" id="Navigation">
+        <Container style={headStyle}>
             <NavigationBar/>
         </Container>
             
-    )
+    );
 }
-
+ 
 export default Header;
