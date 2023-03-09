@@ -7,7 +7,7 @@ import PurpleClouds from "../Assets/purple-clouds.jpg"
 function Header() {
     const headStyle={
         height:"60px",
-        backgroundImage:PurpleClouds,
+        backgroundImage: `url(${PurpleClouds})`,
         backgroundSize:"cover",
         backgroundRepeat:"no-repeat",
     };

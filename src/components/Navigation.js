@@ -6,9 +6,13 @@ import Navbar from "react-bootstrap/Navbar";
 
 
 function NavigationBar() {
+    const NavStyle={
+        padding:"20px",
+    };
+
     return (
         <>
-        <Navbar.Brand href="#Navigation">NavBar</Navbar.Brand>
+        <Navbar.Brand style={NavStyle} href="#Navigation"></Navbar.Brand>
          <Nav className = "NavigationBar" id="Navigation">
             <a href="#Bio"> About Me </a>
             <a href="#Portfolio"> My Projects </a>
