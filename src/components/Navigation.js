@@ -10,10 +10,10 @@ function NavigationBar() {
         <>
         <Navbar.Brand href="#Navigation">NavBar</Navbar.Brand>
          <Nav className = "NavigationBar" id="Navigation">
-            <Nav.link href="#Bio">About Me</Nav.link>
-            <Nav.link href="#Portfolio">My Projects</Nav.link>
-            <Nav.link href="#Resume">My Work History</Nav.link>
-            <Nav.link href="#Contact">Ways to Reach Me</Nav.link>
+            <a href="#Bio"> About Me </a>
+            <a href="#Portfolio"> My Projects </a>
+            <a href="#Resume"> My Work History </a>
+            <a href="#Contact"> Ways to Reach Me </a>
         
         <Navbar fixed="top" />
         </Nav>

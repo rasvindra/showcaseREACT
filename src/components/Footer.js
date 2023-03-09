@@ -7,8 +7,8 @@ function Footer() {
 
         return (
 
-            <Container fluid className="Nav" id="Navigation">
-                <NavBar/>
+            <Container fluid className="footer">
+                <h1>Have a Wonderful Day!</h1>
             </Container>
                 
         )    
