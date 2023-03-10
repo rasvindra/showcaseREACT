@@ -1,7 +1,6 @@
 import React from "react";
 import {Container, Row, Col } from "react-bootstrap";
 import ProjectCards from "./ProjectCard";
-import PinkClouds from "../Assets/pink-clouds.jpg"
 // Need to create paths to images for each project
 
 
@@ -38,6 +37,26 @@ function Projects() {
                         description="This is a social media application to discover new restaurants personally recommended by friends, family and peers. By utilizing Node.js, Express.js, Handlebars.js, MySQL and Sequelize, this is a dynamic full stack application that accepts and responds to user inputs to create reviews, add comments, and retrieve data and information."
                         GitHubLink="https://github.com/pem2k/Chew-on-it"
                         DeployedLink="https://github.com/pem2k/Chew-on-it"
+                        />
+
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCards
+                        // imgPath={PinkClouds}
+                        title="Cute and Cuddly"
+                        description="A simple page that links to third party API and provides pictures and a bit of information related to the searchable breed of various cats and dogs for user referance. Individual pages for dog search and cat search. and additioanl page with a game for users to choose which animal they think is cuter"
+                        GitHubLink="https://github.com/GabrielWarner/cute-and-cuddly"
+                        DeployedLink="https://gabrielwarner.github.io/cute-and-cuddly/"
+                        />
+
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCards
+                        // imgPath={PinkClouds}
+                        title="Cute and Cuddly"
+                        description="A simple page that links to third party API and provides pictures and a bit of information related to the searchable breed of various cats and dogs for user referance. Individual pages for dog search and cat search. and additioanl page with a game for users to choose which animal they think is cuter"
+                        GitHubLink="https://github.com/GabrielWarner/cute-and-cuddly"
+                        DeployedLink="https://gabrielwarner.github.io/cute-and-cuddly/"
                         />
 
                     </Col>

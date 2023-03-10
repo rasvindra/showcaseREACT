@@ -6,7 +6,7 @@ import PurpleClouds from "../Assets/purple-clouds.jpg"
 
 function Header() {
     const headStyle={
-        height:"60px",
+        height:"80px",
         backgroundImage: `url(${PurpleClouds})`,
         backgroundSize:"cover",
         backgroundRepeat:"no-repeat",
@@ -14,6 +14,7 @@ function Header() {
     return (
         <Container style={headStyle}>
             <NavigationBar/>
+            <h1>Ravindra Nagi</h1>
         </Container>
             
     );
