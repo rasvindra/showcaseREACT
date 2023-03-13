@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Row, Col } from "react-bootstrap";
-// import {AiFillGithub} from "react-icons/ai"
+import {AiFillGithub} from "react-icons/ai"
 
 
 function Footer() {
@@ -11,6 +11,17 @@ function Footer() {
                 <Row>
                     <Col>
                     <h3>Designed by Ravi Nagi</h3>
+                    </Col>
+                    <Col>
+                    <a
+                        href="https://github.com/rasvindra"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <AiFillGithub/>
+                    </a>
+
+                    
                     </Col>
 
                 <h1>Have a Wonderful Day!</h1>
