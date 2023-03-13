@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rasvindra/showcaseREACT/static/css/main.463aa083.css",
-    "main.js": "/rasvindra/showcaseREACT/static/js/main.6c4c3295.js",
-    "static/media/Ravi_Headshot.jpg": "/rasvindra/showcaseREACT/static/media/Ravi_Headshot.3faca27f47c79c2fd417.jpg",
-    "static/media/purple-clouds.jpg": "/rasvindra/showcaseREACT/static/media/purple-clouds.e9efbc39ede23db95d0a.jpg",
-    "index.html": "/rasvindra/showcaseREACT/index.html",
-    "main.463aa083.css.map": "/rasvindra/showcaseREACT/static/css/main.463aa083.css.map",
-    "main.6c4c3295.js.map": "/rasvindra/showcaseREACT/static/js/main.6c4c3295.js.map"
+    "main.css": "/showcaseREACT/static/css/main.463aa083.css",
+    "main.js": "/showcaseREACT/static/js/main.dd8bc6a6.js",
+    "static/media/Ravi_Headshot.jpg": "/showcaseREACT/static/media/Ravi_Headshot.3faca27f47c79c2fd417.jpg",
+    "static/media/purple-clouds.jpg": "/showcaseREACT/static/media/purple-clouds.e9efbc39ede23db95d0a.jpg",
+    "index.html": "/showcaseREACT/index.html",
+    "main.463aa083.css.map": "/showcaseREACT/static/css/main.463aa083.css.map",
+    "main.dd8bc6a6.js.map": "/showcaseREACT/static/js/main.dd8bc6a6.js.map"
   },
   "entrypoints": [
     "static/css/main.463aa083.css",
-    "static/js/main.6c4c3295.js"
+    "static/js/main.dd8bc6a6.js"
   ]
 }
