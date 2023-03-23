@@ -10,6 +10,16 @@ function Projects() {
             <Container>
                 <h1 style={{justify:"center"}}> Here is a list of some of my Projects and Collaberations</h1>
                 <Row>
+                    <Col md={4} className="book-buddy">
+                        <ProjectCards
+                        // imgPath={PinkClouds}
+                        title="Book Buddy"
+                        description="A collaboration project that showcases knowledge of REACT, MERN, and Apollo Servers to create a App that allows users to log in to our Website and search a Open API Library to add books they are interested into their Booklist, and update book reading goals"
+                        GitHubLink="https://github.com/rasvindra/book-buddy"
+                        DeployedLink="https://bookbuddy.herokuapp.com/"
+                        />
+
+                    </Col>
                     <Col md={4} className="project-card">
                         <ProjectCards
                         // imgPath={PinkClouds}
